@@ -1,7 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../../assets/covid.json';
-import { Row, Typography, Col } from 'antd';
+import { Row, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -26,6 +26,7 @@ export default function Home() {
             speed={20}
             title="Covid-19"
           />
+
           <Typography.Title>Covid-19</Typography.Title>
         </button>
       </Link>

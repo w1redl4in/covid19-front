@@ -39,11 +39,11 @@ export default function Covid() {
       <Row align="middle" justify="center">
         <Header loading={isLoading} />
       </Row>
-      <Row align="middle" justify="space-around" gutter={[10, 10]}>
+      <Row align="middle" justify="space-around" gutter={[5, 5]}>
         {Covid19 &&
           Covid19.map((covid: ICOVID) => (
             <Col
-              xxl={4}
+              xxl={24}
               xl={4}
               lg={4}
               xs={24}
@@ -58,7 +58,7 @@ export default function Covid() {
                 title={covid.Country}
                 headStyle={{
                   textAlign: 'center',
-                  fontSize: '26px',
+                  fontSize: '46px',
                 }}
               >
                 <Typography.Paragraph>

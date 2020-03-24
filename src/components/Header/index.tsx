@@ -8,12 +8,7 @@ export default function Header({ loading }: any) {
       {loading ? (
         <Loading />
       ) : (
-        <PageHeader
-          title="Covid-19"
-          subTitle="World Wide"
-          ghost
-          style={{ fontSize: '26px' }}
-        />
+        <PageHeader title="Covid-19" subTitle="World Wide" ghost backIcon />
       )}
     </>
   );
