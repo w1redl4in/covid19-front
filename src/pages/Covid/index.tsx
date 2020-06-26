@@ -39,11 +39,11 @@ export default function Covid() {
       <Row align="middle" justify="center">
         <Header loading={isLoading} />
       </Row>
-      <Row align="middle" justify="space-around" gutter={[5, 5]}>
+      <Row align="middle" justify="space-around" gutter={[0, 80]}>
         {Covid19 &&
           Covid19.map((covid: ICOVID) => (
             <Col
-              xxl={24}
+              xxl={5}
               xl={4}
               lg={4}
               xs={24}

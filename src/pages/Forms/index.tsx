@@ -24,8 +24,7 @@ const Forms = () => {
           >
             <Input name="country" />
           </Form.Item>
-
-          <Form.Item wrapperCol={{ span: 12, offset: 6 }}>
+          <Form.Item wrapperCol={{ span: 1, offset: 10 }}>
             <Button type="primary" htmlType="submit">
               Submit
             </Button>
